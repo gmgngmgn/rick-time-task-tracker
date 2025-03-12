@@ -1,0 +1,42 @@
+interface TimeZone {
+  value: string;
+  label: string;
+}
+
+export const timeZones: TimeZone[] = [
+  { value: 'Pacific/Midway', label: '(GMT-11:00) Midway Island, Samoa' },
+  { value: 'America/Adak', label: '(GMT-10:00) Hawaii-Aleutian' },
+  { value: 'Pacific/Marquesas', label: '(GMT-09:30) Marquesas Islands' },
+  { value: 'America/Anchorage', label: '(GMT-09:00) Alaska' },
+  { value: 'America/Los_Angeles', label: '(GMT-08:00) Pacific Time (US & Canada)' },
+  { value: 'America/Denver', label: '(GMT-07:00) Mountain Time (US & Canada)' },
+  { value: 'America/Chicago', label: '(GMT-06:00) Central Time (US & Canada)' },
+  { value: 'America/New_York', label: '(GMT-05:00) Eastern Time (US & Canada)' },
+  { value: 'America/Caracas', label: '(GMT-04:00) Caracas, La Paz' },
+  { value: 'America/St_Johns', label: '(GMT-03:30) Newfoundland' },
+  { value: 'America/Sao_Paulo', label: '(GMT-03:00) Brazil, Buenos Aires' },
+  { value: 'Atlantic/South_Georgia', label: '(GMT-02:00) Mid-Atlantic' },
+  { value: 'Atlantic/Azores', label: '(GMT-01:00) Azores' },
+  { value: 'Europe/London', label: '(GMT+00:00) London, Dublin, Edinburgh' },
+  { value: 'Europe/Paris', label: '(GMT+01:00) Paris, Amsterdam, Berlin' },
+  { value: 'Europe/Istanbul', label: '(GMT+02:00) Istanbul, Cairo' },
+  { value: 'Europe/Moscow', label: '(GMT+03:00) Moscow, St. Petersburg' },
+  { value: 'Asia/Tehran', label: '(GMT+03:30) Tehran' },
+  { value: 'Asia/Dubai', label: '(GMT+04:00) Dubai, Abu Dhabi' },
+  { value: 'Asia/Kabul', label: '(GMT+04:30) Kabul' },
+  { value: 'Asia/Karachi', label: '(GMT+05:00) Karachi, Tashkent' },
+  { value: 'Asia/Kolkata', label: '(GMT+05:30) Mumbai, New Delhi' },
+  { value: 'Asia/Kathmandu', label: '(GMT+05:45) Kathmandu' },
+  { value: 'Asia/Dhaka', label: '(GMT+06:00) Dhaka' },
+  { value: 'Asia/Yangon', label: '(GMT+06:30) Yangon' },
+  { value: 'Asia/Bangkok', label: '(GMT+07:00) Bangkok, Jakarta' },
+  { value: 'Asia/Shanghai', label: '(GMT+08:00) Beijing, Singapore' },
+  { value: 'Asia/Tokyo', label: '(GMT+09:00) Tokyo, Seoul' },
+  { value: 'Australia/Adelaide', label: '(GMT+09:30) Adelaide' },
+  { value: 'Australia/Sydney', label: '(GMT+10:00) Sydney, Melbourne' },
+  { value: 'Asia/Magadan', label: '(GMT+11:00) Solomon Is.' },
+  { value: 'Pacific/Auckland', label: '(GMT+12:00) Auckland, Wellington' },
+  { value: 'Pacific/Chatham', label: '(GMT+12:45) Chatham Islands' },
+  { value: 'Pacific/Tongatapu', label: '(GMT+13:00) Nuku\'alofa' },
+  { value: 'Pacific/Kiritimati', label: '(GMT+14:00) Kiritimati' },
+];
